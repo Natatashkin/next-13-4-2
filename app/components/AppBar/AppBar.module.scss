@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 10px;
+}
+.menuList {
+  display: flex;
+}
+
+.menuListItem {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.itemColor {
+  color: inherit;
+}
+
+.activeItem {
+  color: orangered;
+}
